@@ -8,6 +8,10 @@ document.getElementById("amigo").addEventListener("keypress", function(event) {
     }
 });
 
+document.getElementById("amigo").addEventListener("focus", function() {
+    document.getElementById("resultado").textContent = ""; 
+});
+
 
 //función para agregar amigos
 function agregarAmigo() {
