@@ -39,6 +39,14 @@ body {
     padding: 40px 0 0;
 }
 
+.header-banner img {
+    max-width: 100%;
+    height: auto;
+    width: 300px; 
+    display: block;
+}
+
+
 /* Sección de entrada */
 .input-section {
     flex: 60%;
