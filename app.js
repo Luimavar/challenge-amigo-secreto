@@ -20,7 +20,12 @@ function agregarAmigo() {
     
 
 if (!nombre){
-    alert("Ingresa un amigo por favor");
+    Swal.fire ( {
+        icon: "Warning",
+        tittle: "Uups...",
+        text: "Ingresa un amigo por favor."
+
+    });
     return;
 }
 
